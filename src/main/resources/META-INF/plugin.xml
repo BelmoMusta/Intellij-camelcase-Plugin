@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>musta.belmo.plugins.camelcase</id>
+    <name>CamelCase converter</name>
+    <version>1.0.0</version>
+    <vendor email="belmokhtar.91@gmail.com" url="https://github.com/BelmoMusta">mustabelmo</vendor>
+
+    <description><![CDATA[
+  This plugins will help to convert strings into camel case.
+
+                    Developed with ♥ by mustabelmo
+]]></description>
+
+    <change-notes><![CDATA[
+     First version
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <depends>com.intellij.modules.java</depends>
+
+    <actions>
+        <action id="musta.belmo.musta.belmo.plugins.base64converter.action.CamelCaseAction"
+                class="musta.belmo.plugins.base64converter.action.CamelCaseAction" text="camel case"
+
+                description="camel case">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="EditMenu"  relative-to-action="EditorDelete" anchor="after"/>
+        </action>
+    </actions>
+
+</idea-plugin>
