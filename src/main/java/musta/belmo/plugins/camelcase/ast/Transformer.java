@@ -1,4 +1,4 @@
-package musta.belmo.plugins.base64converter.ast;
+package musta.belmo.plugins.camelcase.ast;
 
 public interface Transformer {
     void transformPsi();

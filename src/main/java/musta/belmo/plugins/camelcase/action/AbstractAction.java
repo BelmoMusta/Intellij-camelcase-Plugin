@@ -1,4 +1,4 @@
-package musta.belmo.plugins.base64converter.action;
+package musta.belmo.plugins.camelcase.action;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -7,7 +7,7 @@ import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.CommandProcessor;
 import com.intellij.openapi.command.UndoConfirmationPolicy;
 import com.intellij.openapi.project.Project;
-import musta.belmo.plugins.base64converter.ast.Transformer;
+import musta.belmo.plugins.camelcase.ast.Transformer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

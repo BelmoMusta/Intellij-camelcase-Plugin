@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>musta.belmo.plugins.camelcase</id>
+    <id>org.musta.belmo.plugins.camelcase</id>
     <name>CamelCase converter</name>
     <version>1.0.0</version>
     <vendor email="belmokhtar.91@gmail.com" url="https://github.com/BelmoMusta">mustabelmo</vendor>
@@ -17,12 +17,9 @@
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="173.0"/>
-
-    <depends>com.intellij.modules.java</depends>
-
     <actions>
-        <action id="musta.belmo.musta.belmo.plugins.base64converter.action.CamelCaseAction"
-                class="musta.belmo.plugins.base64converter.action.CamelCaseAction" text="camel case"
+        <action id="musta.belmo.musta.belmo.plugins.camelcase.action.CamelCaseAction"
+                class="musta.belmo.plugins.camelcase.action.CamelCaseAction" text="camel case"
 
                 description="camel case">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>

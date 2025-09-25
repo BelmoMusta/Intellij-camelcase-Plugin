@@ -1,9 +1,9 @@
-package musta.belmo.plugins.base64converter.action;
+package musta.belmo.plugins.camelcase.action;
 
 import com.intellij.openapi.actionSystem.CommonDataKeys;
 import com.intellij.openapi.editor.Editor;
-import musta.belmo.plugins.base64converter.ast.CamelCaseTransformer;
-import musta.belmo.plugins.base64converter.ast.Transformer;
+import musta.belmo.plugins.camelcase.ast.CamelCaseTransformer;
+import musta.belmo.plugins.camelcase.ast.Transformer;
 
 public class CamelCaseAction extends AbstractAction {
 
